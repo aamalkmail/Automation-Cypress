@@ -1,0 +1,40 @@
+{
+    "valid_both": {
+      "userName": "Admin",
+      "password": "admin123"
+     
+     
+    },
+  
+  
+    "invalid_both": {
+      "userName": "test",
+      "password": "test",
+      "massage": "Invalid credentials"
+    },
+  
+  
+    "invalid_username": {
+      "userName": "test",
+      "password": "admin123",
+      "massage": "Invalid credentials"
+  
+  
+    },
+  
+  
+    "invalid_pass": {
+      "userName": "Admin",
+      "password": "test",
+      "massage": "Invalid credentials"
+    },
+    "messages": {
+      "invalidCredentials": "Invalid credentials",
+      "Required": "Required"
+    },
+    "sensitivity": {
+      "userName": "admin",
+      "password": "admin123"
+    }
+  }
+  
