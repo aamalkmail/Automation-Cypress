@@ -23,13 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-declare namespace Cypress {
+import 'cypress-file-upload';
+declare global {
+ namespace Cypress {
   interface Chainable<Subject> {
     getByCy: typeof getByCy;
   }
 }
-
+}
 function getByCy(field: string) {
   return cy.get(`[placeholder=${field}]`);
 }
