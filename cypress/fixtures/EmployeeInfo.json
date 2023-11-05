@@ -1,0 +1,16 @@
+
+{ 
+    "FirstName": "aamal", 
+    "MiddleName": "mahmoud", 
+    "LastName": "kmail", 
+    "userName":"aamal86", 
+    "pass": "aamal123456789", 
+    "confirmPass":"aamal123456789", 
+    "SubUnit":"Administration", 
+    "EmploymentStatus":"Full-Time Contract", 
+    "JobTitle":"Account Assistant", 
+    "EmpID":"6574", 
+    "firstName":"aamal", 
+    "lastName":"kmail", 
+    "middelName":"mahmoud" 
+}
